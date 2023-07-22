@@ -14,8 +14,8 @@ In the digital age, news consumption and sharing play a crucial role in people's
 However, with 50 features in the dataset, feature selection becomes essential to focus on the most informative and relevant attributes for accurate prediction. Some features are non-predictive or contain missing values, and categorical features require special consideration during regression analysis.
 
 ![Image Alt Text](./images/shareshist.svg)
-![Image Alt Text](./images/spearmancorr.svg)
 
+<img src="./images/spearmancorr.svg" width="400" alt="Image description">
 
 
 ## Proposed Approach
