@@ -13,6 +13,11 @@ In the digital age, news consumption and sharing play a crucial role in people's
 
 However, with 50 features in the dataset, feature selection becomes essential to focus on the most informative and relevant attributes for accurate prediction. Some features are non-predictive or contain missing values, and categorical features require special consideration during regression analysis.
 
+![Image Alt Text](./images/shareshist.svg)
+![Image Alt Text](./images/spearmancorr.svg)
+
+
+
 ## Proposed Approach
 
 The project follows a thorough data preprocessing process to handle outliers, missing values, and feature selection. Outliers in the `shares` feature are removed using robust techniques to improve the model's convergence and prediction accuracy. Non-predictive features, like `id` and `url`, are dropped from the dataset, and missing values in certain features are imputed or filled with zeros.
@@ -20,6 +25,11 @@ The project follows a thorough data preprocessing process to handle outliers, mi
 To address skewed distributions and non-bell-shaped patterns, log transformations are applied to certain features. Correlation analysis is employed to identify strongly correlated features, and one feature from each correlated pair is removed to improve the model's predictive performance.
 
 The models considered for this regression task include Linear Regression, Support Vector Regression (with polynomial and radial basis function kernels), Random Forest Regressor, and Gradient Boosting Regressor. Hyperparameter tuning using Grid Search with cross-validation is performed for the best models.
+
+
+![Image Alt Text](./images/histplotwithlogs.svg)
+
+![Image Alt Text](./images/scheme2.png)
 
 ## Results
 
